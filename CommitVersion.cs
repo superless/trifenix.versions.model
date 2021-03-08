@@ -22,7 +22,7 @@ namespace trifenix.versions.model
         /// <summary>
         /// versión semántica.
         /// </summary>
-        public Semantic SemanticBaseVersion { get; set; } = new Semantic();
+        public Semantic SemanticBaseVersion { get; set; }
 
         /// <summary>
         /// Label de la versión
